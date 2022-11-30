@@ -1,7 +1,7 @@
 {
-    "pluginStatus": true,
+    "pluginStatus": false,
     "isPaid": true,
-    "communityName": "Northside RP",
+    "communityName": "Ethelstan",
     "betaCommunity": false,
     "features": {
         "inGameInterface": true,
@@ -10,7 +10,7 @@
     },
     "talkAroundRange": 1500,
     "betaServerGroups": [""],
-    "dispatchServerGroups": ["9162"],
+    "dispatchServerGroups": [""],
     "dispatchAdvancedServerGroups": [],
     "dispatchNameTags": [
         "(P)",
@@ -28,8 +28,8 @@
     ],
     "civilianServerGroups": [""],
     "civChannels": [0],
-    "radioSystems": [9722],
-    "rtoChannels": [9452],
+    "radioSystems": [3],
+    "rtoChannels": [8],
     "radioChannels": [
         {
             "id": 1,
@@ -81,22 +81,22 @@
         },
         {
             "id": 5,
-            "name": "Private 1",
+            "name": "Car/Car",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=red]Private 1[/color]",
+            "coloredName": "[color=grey]Car/Car[/color]",
             "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": false,
-            "encrypted": true,
+            "talkAround": true,
+            "scannable": true,
+            "encrypted": false,
             "permission": 1
         },
         {
             "id": 6,
-            "name": "Private 2",
+            "name": "Private 1",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=red]Private 2[/color]",
+            "coloredName": "[color=red]Private 1[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": false,
@@ -113,54 +113,6 @@
             "talkAround": false,
             "scannable": false,
             "encrypted": true,
-            "permission": 1
-        },
-        {
-            "id": 8,
-            "name": "LS Frequency",
-            "soundName": "",
-            "type": "LEO",
-            "coloredName": "[color=cyan]LS Frequency[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": true,
-            "encrypted": false,
-            "permission": 1
-        },
-        {
-            "id": 9,
-            "name": "BC Frequency",
-            "soundName": "",
-            "type": "LEO",
-            "coloredName": "[color=cyan]BC Frequency[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": true,
-            "encrypted": false,
-            "permission": 1
-        },
-        {
-            "id": 10,
-            "name": "County Frequency",
-            "soundName": "",
-            "type": "LEO",
-            "coloredName": "[color=cyan]County Frequency[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": true,
-            "encrypted": false,
-            "permission": 1
-        },
-        {
-            "id": 11,
-            "name": "City Frequency",
-            "soundName": "",
-            "type": "LEO",
-            "coloredName": "[color=cyan]City Frequency[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": true,
-            "encrypted": false,
             "permission": 1
         }
     ],
@@ -195,7 +147,7 @@
             "serverGroupList": [""]
         },
         "permSuper": {
-            "serverGroupList": ["9071", "8433"]
+            "serverGroupList": ["6"]
         }
     }
 }

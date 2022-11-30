@@ -1,6 +1,6 @@
 {
-    "pluginStatus": true,
-    "isPaid": true,
+    "pluginStatus": false,
+    "isPaid": false,
     "communityName": "New Limits Roleplay",
     "features": {
         "inGameInterface": true,
@@ -27,7 +27,7 @@
     ],
     "civilianServerGroups": [""],
     "civChannels": [0],
-    "radioSystems": [67],
+    "radioSystems": [64],
     "rtoChannels": [69, 68],
     "radioChannels": [
         {

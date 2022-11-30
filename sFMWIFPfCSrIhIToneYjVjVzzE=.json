@@ -1,6 +1,6 @@
 {
-    "pluginStatus": true,
-    "isPaid": true,
+    "pluginStatus": false,
+    "isPaid": false,
     "communityName": "Integrity Gaming",
     "betaCommunity": false,
     "features": {
@@ -10,7 +10,7 @@
     },
     "talkAroundRange": 1500,
     "betaServerGroups": [""],
-    "dispatchServerGroups": ["30027"],
+    "dispatchServerGroups": ["87", "88", "89"],
     "dispatchAdvancedServerGroups": [],
     "dispatchNameTags": [
         "(P)",
@@ -28,8 +28,8 @@
     ],
     "civilianServerGroups": [""],
     "civChannels": [0],
-    "radioSystems": [88750],
-    "rtoChannels": [88751],
+    "radioSystems": [37],
+    "rtoChannels": [38],
     "radioChannels": [
         {
             "id": 1,
@@ -105,10 +105,10 @@
         },
         {
             "id": 7,
-            "name": "Fireground",
+            "name": "Car/Car",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=orange]Fireground[/color]",
+            "coloredName": "[color=grey]Car/Car[/color]",
             "talkEnforcement": true,
             "talkAround": true,
             "scannable": true,

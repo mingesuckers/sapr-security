@@ -1,16 +1,16 @@
 {
-    "pluginStatus": true,
-    "isPaid": true,
-    "communityName": "Department of Intelligence RP",
+    "pluginStatus": false,
+    "isPaid": false,
+    "communityName": "Northern State Roleplay",
     "betaCommunity": false,
     "features": {
         "inGameInterface": true,
         "rangeSimulation": true,
-        "emergencyHotline": true
+        "emergencyHotline": false
     },
     "talkAroundRange": 1500,
     "betaServerGroups": [""],
-    "dispatchServerGroups": ["211", "202"],
+    "dispatchServerGroups": ["917"],
     "dispatchAdvancedServerGroups": [],
     "dispatchNameTags": [
         "(P)",
@@ -28,15 +28,15 @@
     ],
     "civilianServerGroups": [""],
     "civChannels": [0],
-    "radioSystems": [35, 44, 52],
-    "rtoChannels": [38, 48, 56],
+    "radioSystems": [1931],
+    "rtoChannels": [1935],
     "radioChannels": [
         {
             "id": 1,
-            "name": "Dispatch (Primary)",
+            "name": "Statewide Ops",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=green]Dispatch (Primary)[/color]",
+            "coloredName": "[color=green]Statewide Ops[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
@@ -45,10 +45,10 @@
         },
         {
             "id": 2,
-            "name": "Data (Secondary)",
+            "name": "North Ops",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=green]Data (Secondary)[/color]",
+            "coloredName": "[color=green]North Ops[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
@@ -57,34 +57,10 @@
         },
         {
             "id": 3,
-            "name": "Fire/EMS Dispatch",
+            "name": "South Ops",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=green]Fire/EMS Dispatch[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": true,
-            "encrypted": true,
-            "permission": 1
-        },
-        {
-            "id": 4,
-            "name": "Tac 1",
-            "soundName": "",
-            "type": "LEO",
-            "coloredName": "[color=yellow]Tac 1[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": true,
-            "encrypted": true,
-            "permission": 1
-        },
-        {
-            "id": 5,
-            "name": "Tac 2",
-            "soundName": "",
-            "type": "LEO",
-            "coloredName": "[color=yellow]Tac 2[/color]",
+            "coloredName": "[color=green]South Ops[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
@@ -92,7 +68,43 @@
             "permission": 1
         },
         {
+            "id": 4,
+            "name": "Fire Ops",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=yellow]Fire Ops[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 5,
+            "name": "Tac 1",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=purple]Tac 1[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
             "id": 6,
+            "name": "Tac 2",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=purple]Tac 2[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 7,
             "name": "Private 1",
             "soundName": "",
             "type": "LEO",
@@ -104,27 +116,15 @@
             "permission": 1
         },
         {
-            "id": 7,
-            "name": "Car/Car",
+            "id": 8,
+            "name": "Public Services",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=grey]Car/Car[/color]",
-            "talkEnforcement": true,
-            "talkAround": true,
-            "scannable": true,
-            "encrypted": false,
-            "permission": 1
-        },
-        {
-            "id": 8,
-            "name": "Announcements",
-            "soundName": "",
-            "type": "announce",
-            "coloredName": "[color=red]Announcements[/color]",
+            "coloredName": "[color=grey]Public Services[/color]",
             "talkEnforcement": true,
             "talkAround": false,
-            "scannable": false,
-            "encrypted": true,
+            "scannable": true,
+            "encrypted": false,
             "permission": 1
         }
     ],
@@ -147,19 +147,19 @@
             "serverGroupList": [""]
         },
         "permSit": {
-            "serverGroupList": ["217"]
+            "serverGroupList": ["925"]
         },
         "permStaff": {
-            "serverGroupList": ["218"]
+            "serverGroupList": ["926"]
         },
         "permSenior": {
-            "serverGroupList": ["219"]
+            "serverGroupList": ["927"]
         },
         "permAdmin": {
-            "serverGroupList": ["220", "221"]
+            "serverGroupList": ["929", "928"]
         },
         "permSuper": {
-            "serverGroupList": ["222", "223"]
+            "serverGroupList": ["932"]
         }
     }
 }

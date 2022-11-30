@@ -1,16 +1,16 @@
 {
     "pluginStatus": true,
     "isPaid": true,
-    "communityName": "Sunset Valley Roleplay",
+    "communityName": "ElevationRoleplay",
     "betaCommunity": false,
     "features": {
         "inGameInterface": true,
         "rangeSimulation": true,
-        "emergencyHotline": true
+        "emergencyHotline": false
     },
     "talkAroundRange": 1500,
     "betaServerGroups": [""],
-    "dispatchServerGroups": ["4207", "4193"],
+    "dispatchServerGroups": ["14"],
     "dispatchAdvancedServerGroups": [],
     "dispatchNameTags": [
         "(P)",
@@ -28,15 +28,15 @@
     ],
     "civilianServerGroups": [""],
     "civChannels": [0],
-    "radioSystems": [4907],
-    "rtoChannels": [4912],
+    "radioSystems": [12],
+    "rtoChannels": [3],
     "radioChannels": [
         {
             "id": 1,
-            "name": "Patrol Ops",
+            "name": "State Central",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=green]Patrol Ops[/color]",
+            "coloredName": "[color=green]State Central[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
@@ -45,10 +45,10 @@
         },
         {
             "id": 2,
-            "name": "Fire Ops",
+            "name": "Metro",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=yellow]Fire Ops[/color]",
+            "coloredName": "[color=green]Metro[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
@@ -57,22 +57,34 @@
         },
         {
             "id": 3,
-            "name": "Tac 1",
+            "name": "County",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=purple]Tac 1[/color]",
+            "coloredName": "[color=green]County[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
-            "encrypted": true,
+            "encrypted": false,
             "permission": 1
         },
         {
             "id": 4,
-            "name": "Tac 2",
+            "name": "Fire Comms",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=purple]Tac 2[/color]",
+            "coloredName": "[color=yellow]Fire Comms[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 5,
+            "name": "Tac #1",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=purple]Tac #1[/color]",
             "talkEnforcement": true,
             "talkAround": false,
             "scannable": true,
@@ -80,7 +92,7 @@
             "permission": 1
         },
         {
-            "id": 5,
+            "id": 6,
             "name": "Car/Car",
             "soundName": "",
             "type": "LEO",
@@ -92,7 +104,7 @@
             "permission": 1
         },
         {
-            "id": 6,
+            "id": 7,
             "name": "Private 1",
             "soundName": "",
             "type": "LEO",
@@ -102,23 +114,11 @@
             "scannable": false,
             "encrypted": true,
             "permission": 1
-        },
-        {
-            "id": 7,
-            "name": "Announcements",
-            "soundName": "",
-            "type": "announce",
-            "coloredName": "[color=red]Announcements[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": false,
-            "encrypted": true,
-            "permission": 1
         }
     ],
     "time_settings": {
         "emergencyOverridePeriod": 10,
-        "emergencyCooldown": 20,
+        "emergencyCooldown": 30,
         "emergencyOtherCooldown": 20,
         "dispatchToneCooldown": 15,
         "radioStunCooldown": 5,
@@ -135,19 +135,19 @@
             "serverGroupList": [""]
         },
         "permSit": {
-            "serverGroupList": ["4222"]
+            "serverGroupList": [""]
         },
         "permStaff": {
-            "serverGroupList": ["4221"]
+            "serverGroupList": [""]
         },
         "permSenior": {
-            "serverGroupList": ["4220"]
+            "serverGroupList": [""]
         },
         "permAdmin": {
-            "serverGroupList": ["4218", "4219"]
+            "serverGroupList": [""]
         },
         "permSuper": {
-            "serverGroupList": ["4209", "4210", "4435"]
+            "serverGroupList": [""]
         }
     }
 }

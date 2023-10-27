@@ -1,6 +1,6 @@
 {
-    "pluginStatus": false,
-    "isPaid": false,
+    "pluginStatus": true,
+    "isPaid": true,
     "communityName": "NationwideRP",
     "betaCommunity": false,
     "features": {
@@ -156,7 +156,7 @@
             "serverGroupList": ["3325"]
         },
         "permAdmin": {
-            "serverGroupList": ["3568", "3321", "3323"]
+            "serverGroupList": [""]
         },
         "permSuper": {
             "serverGroupList": ["3313"]

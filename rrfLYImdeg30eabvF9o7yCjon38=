@@ -1,7 +1,7 @@
 {
     "pluginStatus": true,
     "isPaid": true,
-    "communityName": "San Andreas Roleplay",
+    "communityName": "Main",
     "betaCommunity": false,
     "features": {
         "inGameInterface": true,
@@ -43,78 +43,6 @@
             "encrypted": false,
             "permission": 1
         },
-        {
-            "id": 2,
-            "name": "Fire Ops",
-            "soundName": "",
-            "type": "LEO",
-            "coloredName": "[color=yellow]Fire Ops[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": true,
-            "encrypted": false,
-            "permission": 1
-        },
-        {
-            "id": 3,
-            "name": "Tac 1",
-            "soundName": "",
-            "type": "LEO",
-            "coloredName": "[color=purple]Tac 1[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": true,
-            "encrypted": true,
-            "permission": 1
-        },
-        {
-            "id": 4,
-            "name": "Tac 2",
-            "soundName": "",
-            "type": "LEO",
-            "coloredName": "[color=purple]Tac 2[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": true,
-            "encrypted": true,
-            "permission": 1
-        },
-        {
-            "id": 5,
-            "name": "North Ops",
-            "soundName": "",
-            "type": "LEO",
-            "coloredName": "[color=cyan]North Ops[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": true,
-            "encrypted": false,
-            "permission": 1
-        },
-        {
-            "id": 6,
-            "name": "South Ops",
-            "soundName": "",
-            "type": "LEO",
-            "coloredName": "[color=cyan]South Ops[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": true,
-            "encrypted": false,
-            "permission": 1
-        },
-        {
-            "id": 7,
-            "name": "Public Services",
-            "soundName": "",
-            "type": "LEO",
-            "coloredName": "[color=grey]Public Services[/color]",
-            "talkEnforcement": true,
-            "talkAround": false,
-            "scannable": true,
-            "encrypted": false,
-            "permission": 1
-        }
     ],
     "time_settings": {
         "emergencyOverridePeriod": 10,
